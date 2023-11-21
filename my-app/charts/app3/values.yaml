@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: us-east1-docker.pkg.dev/searce-playground-v1/rushabh-app2/rushabh-app2
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "18"
 
 imagePullSecrets: []
 nameOverride: ""
